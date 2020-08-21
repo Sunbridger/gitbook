@@ -84,6 +84,7 @@ module.exports = {
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
             template: './public/index.html',
+            favicon: './public/favicon.ico',
             minify: {
                 collapseWhitespace: true
             }
