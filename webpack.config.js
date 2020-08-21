@@ -14,7 +14,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         filename: 'bundle.js',
-        path: resolve('./build')
+        path: resolve('./docs')
     },
     resolve: {
         alias: {
